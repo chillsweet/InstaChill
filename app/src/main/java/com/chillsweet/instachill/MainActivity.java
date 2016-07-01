@@ -101,47 +101,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        MenuInflater inflater = getMenuInflater();
-//        inflater.inflate(R.menu.activity_menu, menu);
-//        new Handler().post(new Runnable() {
-//            @Override
-//            public void run() {
-//                final View v = findViewById(R.id.action_inbox);
-//
-//                if (v != null) {
-//                    v.setOnLongClickListener(new View.OnLongClickListener() {
-//                        @Override
-//                        public boolean onLongClick(View v) {
-//                            return false;
-//                        }
-//                    });
-//                }
-//            }
-//        });
-//        return true;
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        switch (item.getItemId()) {
-//
-//            case R.id.action_inbox:
-//                // User chose the "Favorite" action, mark the current item
-//                // as a favorite...
-//                Log.d(TAG, "onOptionsItemSelected: Inbox");
-//                return true;
-//
-//            default:
-//                // If we got here, the user's action was not recognized.
-//                // Invoke the superclass to handle it.
-//                return super.onOptionsItemSelected(item);
-//
-//        }
-//
-//    }
-
     @Override
     public void onClick(View v) {
 
